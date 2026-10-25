@@ -81,13 +81,8 @@ LOCATION:北京中医药大学深圳医院（龙岗）
 DESCRIPTION:取号密码：82629926814\n提前半小时到自助机缴费取号或公众号在线取号，取号后到诊区导诊台登记排队\n如需取消：提前一天17:00前在公众号取消
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:就诊 · 儿科门诊（园山）任宇哲医生（提前1小时，准备出门）
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:就诊 · 儿科门诊（园山）任宇哲医生（提前30分钟，到医院）
-TRIGGER:-PT30M
+DESCRIPTION:就诊 · 儿科门诊（园山）任宇哲医生（明天15:00就诊）
+TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 END:VCALENDAR
